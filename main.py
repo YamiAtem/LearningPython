@@ -3,13 +3,13 @@ import tts
 age_group = ""
 
 tts.speak("What is your Name")
-name = input("What is your Name: ")
+name = input("Name: ")
 
 tts.speak("What is your age")
-age = input("What is your age: ")
+age = input("age: ")
 
 tts.speak("What grade/class are you in")
-grade = input("What grade/class are you in: ")
+grade = input("Grade/Class: ")
 
 if 12 < int(age) < 20:
     age_group = "Teenager"
