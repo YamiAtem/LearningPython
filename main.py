@@ -37,3 +37,10 @@ else:
 
 tts.speak("You are a " + age_group)
 tts.speak("Your name has " + str(len(name)) + " characters")
+
+file = open(name + ".txt", "x")
+file.write("Name: " + name + "\n")
+file.write("Age: " + age + "\n")
+file.write("Grade/Class: " + grade + "\n")
+file.write("You are a " + age_group)
+file.close()
